@@ -24,7 +24,7 @@ un oggetto <b>Response</b>. Questa modalita' e' il meccanismo piu' semplice per
 indicare al client il verificarsi di una situazione anomala.</p>
 
 
-<p><b><OutArrayRange</b> rappresenta un modo alternativo per comunicare all'utente che si e'
+<p> <b><OutArrayRange</b> rappresenta un modo alternativo per comunicare all'utente che si e'
  verificato un evento anomalo. Se viene specificato, nella chiamata Rest, un indice dell'array che
  che non contiene nessun elemento, viene sollevata una eccezione di tipo <b>java.lang.IndexOutOfBoundsException</b>. 
  <b><OutArrayRange</b> viene lanciata direttamente ogni volta che si verifica <b>java.lang.IndexOutOfBoundsException</b>.
