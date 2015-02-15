@@ -24,10 +24,10 @@ un oggetto <b>Response</b>. Questa modalita' e' il meccanismo piu' semplice per
 indicare al client il verificarsi di una situazione anomala.</p>
 
 
-<p><b><OutArrayRange/b> rappresenta un modo alternativo per comunicare all'utente che si e'
+<p><b><OutArrayRange</b> rappresenta un modo alternativo per comunicare all'utente che si e'
  verificato un evento anomalo. Se viene specificato, nella chiamata Rest, un indice dell'array che
  che non contiene nessun elemento, viene sollevata una eccezione di tipo <b>java.lang.IndexOutOfBoundsException</b>. 
- <b><OutArrayRange/b> viene lanciata direttamente ogni volta che si verifica <b>java.lang.IndexOutOfBoundsException</b>.
+ <b><OutArrayRange</b> viene lanciata direttamente ogni volta che si verifica <b>java.lang.IndexOutOfBoundsException</b>.
  In questo modo e' possibile specificare l'oggetto Response da inviare al client e nel codice non e' necessario 
  indicare blocchi try...catch. L'uso di tale pattern permette di avere pertanto un codice piu' pulito.
  <b>DRY</b> (Don't Repeat Yourself)</p>
